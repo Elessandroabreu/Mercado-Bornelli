@@ -19,8 +19,8 @@ public class StudioApplication {
 		return String.format("Hello %s!", name);
 	}
 
-	@GetMapping("/mecanica")
-	public String mecanica(@RequestParam(value = "name", defaultValue = "SMR AUTO") String name) {
+	@GetMapping("/mercado")
+	public String mercado(@RequestParam(value = "name", defaultValue = "MERCADO BORNELLI") String name) {
 		return String.format("Bem-vindo à %s!", name);
 	}
 }
