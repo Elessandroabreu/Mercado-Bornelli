@@ -1,10 +1,10 @@
-package com.studio.Studio;
+package com;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudioApplication {
+class mercadobornelli {
 
 	@Test
 	void contextLoads() {
